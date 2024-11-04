@@ -1,0 +1,13 @@
+#root {
+  --padding: 10px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+  padding: var(--padding);
+  margin: 0;
+  width: calc(100vw - calc(var(--padding) * 2));
+  height: calc(100vh - calc(var(--padding) * 2));
+}
+
+body {
+  margin: 0;
+}
